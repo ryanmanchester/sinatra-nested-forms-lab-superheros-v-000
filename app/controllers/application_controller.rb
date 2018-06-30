@@ -6,12 +6,12 @@ class App < Sinatra::Base
 
     get '/' do
       erb :super_hero
-      binding.pry
+      #binding.pry
     end
 
     post '/teams' do
 
-      erb :team
+      binding.pry
     end
 
 
