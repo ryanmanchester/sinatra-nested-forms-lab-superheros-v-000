@@ -9,7 +9,7 @@ class App < Sinatra::Base
       #binding.pry
     end
 
-    post '/team' do
+    post '/teams' do
 
       erb :team
     end
